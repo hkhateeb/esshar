@@ -1,0 +1,349 @@
+/*GENERAL*/
+HTML, BODY, DIV, TR, TH, TD, TABLE, H1, H2, H3, H4, H5, H6, FIELDSET, FORM, LABEL, SPAN, UL, LI, TBODY, FONT, IMG, APPLET, OBJECT, IFRAME, BLOCKQUOTE, PRE, A, ABBR, ACRONYM, ADDRESS, BIG, CITE, CODE, DEL, DFN, INS, KBD, Q, S, SAMP, SMALL, STRIKE, SUB, SUP, TT, VAR, CENTER, DL, DT, DD, LEGEND, CAPTION, TFOOT, THEAD
+{
+	background: transparent;
+	border: 0;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+HTML
+{
+	height: 100%;
+}
+BODY
+{
+	color: #555;
+	font-size: 12px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+.body_bg
+{
+}
+/*CONTENT STYLE*/
+H1 A, H2 A, H3 A, H4 A, H5 A, H6 A
+{
+	font-size: 18px;
+	font-weight: normal;
+}
+A
+{
+	color: #3B7BB9;
+	text-decoration: none;
+	font-weight: inherit;
+	text-decoration: inherit;
+}
+A:hover
+{
+	text-decoration: underline;
+}
+UL
+{
+	margin: 1em;
+}
+.clr
+{
+	clear: both;
+	font-size: 0;
+}
+.article_row
+{
+	overflow: hidden;
+	margin: 0 -10px 15px;
+}
+P.buttonheading
+{
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	margin: 0;
+}
+.buttonheading .icon
+{
+	display: block;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-left: 5px;
+}
+.buttonheading .pdf
+{
+}
+.buttonheading .print
+{
+}
+.buttonheading .email
+{
+}
+.iteminfo
+{
+	font-size: 9px !important;
+	overflow: hidden;
+	border-bottom: 1px solid #DEDEDE;
+	margin-bottom: 20px;
+	display: block;
+	margin-top: -10px;
+	width: 100%;
+}
+.modifydate, .createdby, .createdate
+{
+	display: block;
+}
+.createdby
+{
+	font-weight: bold;
+}
+A.readon, A.readon2
+{
+	display: block;
+	margin-top: 15px;
+	font-style: italic;
+}
+A.readon2
+{
+	display: block;
+	float: right;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 20px;
+}
+A.readon2 SPAN
+{
+	display: block;
+	margin-right: 10px;
+	height: 21px;
+	float: left;
+	padding: 0 5px 0 15px;
+}
+.breadcrumbs-pad
+{
+	padding: 0 1px;
+}
+.banneritem_text
+{
+	margin-bottom: 10px;
+}
+#modlgn_username, #modlgn_passwd
+{
+	border: 1px solid #CCC;
+	padding: 3px;
+}
+.pagination SPAN, .pagination A
+{
+	margin-right: 5px;
+}
+.item-page, .category-list
+{
+	position: relative;
+}
+.category-list .hasTip
+{
+	position: absolute;
+	right: 19px;
+	top: 2px;
+}
+.category-list .actions .hasTip
+{
+	position: static;
+}
+.item-page FIELDSET
+{
+	margin-bottom: 3em;
+}
+.mceEditor
+{
+	display: block;
+	margin: 1em 0;
+}
+.button2-left
+{
+	float: left;
+	margin-right: 1em;
+}
+.pagenav
+{
+	text-align: center;
+}
+.leading
+{
+	margin-left: 1%;
+}
+/*BLOG COLS*/
+.blog-featured .cols-3 .item
+{
+	display: inline-block;
+	width: 31%;
+	vertical-align: top;
+}
+.blog-featured .cols-3 .item:nth-child(2n+1)
+{
+	margin-right: 1%;
+	margin-left: 1%;
+}
+/*//BLOG COLS*/
+.readmore, .article-count, TABLE.category TH, .pagenavcounter
+{
+	font-style: normal;
+}
+TABLE.category TD, TABLE.category TH
+{
+	padding-right: 20px;
+}
+TABLE.category TH A
+{
+	font-weight: normal;
+}
+.image-left, IMG[align="left"]
+{
+	float: left;
+	margin-right: 10px;
+}
+.article-count
+{
+	padding-bottom: 1em;
+}
+.article-count DT, .article-count DD, .contact-address ADDRESS, #form-login-remember LABEL
+{
+	display: inline;
+}
+TABLE.category TH A IMG
+{
+	margin-left: 5px;
+}
+.login-fields, .display-limit, .reset, FORM DD
+{
+	margin-bottom: 10px;
+}
+.login-fields LABEL, .item-page LABEL
+{
+	display: block;
+}
+LEGEND
+{
+	padding-bottom: 1em;
+}
+.sectiontableheader
+{
+	font-weight: bold;
+	line-height: 25px;
+	text-align: left;
+}
+TR.sectiontableentry0 TD, TR.sectiontableentry1 TD, TR.sectiontableentry2 TD, TD.sectiontableentry0, TD.sectiontableentry1, TD.sectiontableentry2
+{
+	text-align: left;
+	padding: 0 4px;
+	vertical-align: middle;
+	border-top: 1px solid #DDD;
+	line-height: 30px;
+}
+SPAN.attention
+{
+	display: block;
+	margin: 15px 0;
+	padding: 8px 10px;
+	background: #FFF3A3;
+	border: 1px solid #E7BD72;
+	color: #B79000;
+}
+/*MODULES*/
+.module-title
+{
+	font-size: 17px;
+	font-weight: inherit;
+	margin: 0;
+	padding: 7px 15px 5px 10px;
+	color: #FFFFFF;
+	text-transform: inherit;
+	background-image: url(../images/backgrounds/module_h3_bg_default.png);
+}
+.module-body
+{
+	padding: 10px 15px 25px;
+	border-bottom: 0px;
+	margin-bottom: 10px;
+}
+/*MODULE CLASS SUFFIX*/
+.module-body._color1, .module-body._color2, .module-body._color3, .module-body._color4, .module-body._color5
+{
+	color: #FFFFFF;
+}
+.module-body._color1 .module-title, .module-body._color2 .module-title, .module-body._color3 .module-title, .module-body._color4 .module-title, .module-body._color5 .module-title
+{
+	color: #FFFFFF;
+}
+.module-body._color1 A, .module-body._color2 A, .module-body._color3 A, .module-body._color4 A, .module-body._color5
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.module-body._color1
+{
+}
+.module-body._color2
+{
+}
+.module-body._color3
+{
+}
+.module-body._color4
+{
+}
+.module-body._color5
+{
+}
+/*FOOTER*/
+#footer_outer
+{
+	background-image: url(../images/backgrounds/footer.png);
+	padding: 10px;
+	color: #999999;
+	min-height: 75px;
+}
+#footer
+{
+	background-image: url(../images/backgrounds/footer.png);
+	text-align: center;
+	font-size: 11px;
+}
+#footer UL
+{
+	margin: 0;
+}
+#footer LI
+{
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+	font-weight: bold;
+}
+#footer A
+{
+	color: #999999;
+	text-decoration: underline;
+}
+#footer A:hover
+{
+	text-decoration: none;
+}
+#footer_outer .module-body
+{
+	background-color: transparent;
+}
+#footer_outer .module-title
+{
+	padding-left: 12px;
+}
+.copyright_2
+{
+	font-size: 11px;
+}
+/*ERROR MESSAGE*/
+#system-message
+{
+	color: #E70909;
+}
