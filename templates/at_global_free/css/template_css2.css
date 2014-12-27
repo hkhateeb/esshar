@@ -40,7 +40,7 @@
 }
 #logo
 {
-	float: left;
+	float: right;
 }
 .site-title
 {
@@ -57,7 +57,7 @@
 #search
 {
 	padding: 10px;
-	float: right;
+	float: left;
 }
 #search .inputbox
 {
